@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@200&family=Playfair+Display:wght@400;900&family=Poppins:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+root {
+    --primary-text-color: rgb(33, 33, 33);
+    --secoundary-text-color: rgb(105, 105, 105);
+    --font-pera :  'Poppins', sans-serif;
+}
+body{
+     font-family: 'Poppins', sans-serif;
+     color: black;
+    
+}
+.border{
+    border: 2px solid red;
+
+}
+.container nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3.6rem;
+    box-shadow: 0 0 8px rgb(39, 39, 39);
+    z-index: 1;
+    width: 100%;
+    position: fixed;
+    background-color: rgb(215, 215, 215);
+}
+
+.logo{
+    text-align: center;
+    flex-basis: 30%;
+    /* font-weight: 300; */
+    cursor: pointer;
+    font-size: 1.5rem;
+    
+}
+.logo:hover{
+    font-size: 1.6rem;
+    transition: 0.5s ease-in-out;
+    color: rgb(16, 9, 9);
+}
+
+.lists{
+    text-align: center;
+    flex-basis: 40%;
+}
+
+ul {
+    font-size: 1.1rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+    /* font-family: 'Playfair Display', serif; */
+    color: var(--primary-text-color);
+ }
+
+ .list:hover{
+    text-shadow: 0 0 2px rgb(85, 85, 85);
+ }
+
+ /* hero secton starts  */
+
+.hero{
+    background-image: url(BG1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100% ;
+    background-blend-mode: darken;
+}
+.pera {
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 4.7rem;
+  color: rgb(54, 54, 54);
+  text-shadow: 0 0 8px rgb(128, 128, 128);
+}
+.pos{
+    display: grid;
+    /* margin: auto; */
+    justify-content: center;
+    align-items: center ;
+    place-content: center;
+    height: 100vh;
+    width: 50%;
+}
+.quotes{
+    color: var(--primary-text-color);
+}
+
+/* <!--staring page 3--> */
+.contaner2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* height: 700px; */
+    height: 100vh;
+}
+.box img{
+    /* width: 400px; */
+    /* height: 400px; */
+    flex-basis: 30%;
+    /* background-position: top; */
+    /* background-size: cover; */
+}
+.mypic{
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+}
+.mypic:hover{
+    transition: 0.5s ease-in-out ;
+    box-shadow: 0 0 10px black;
+    border-radius: 12px;
+    cursor: pointer;
+    background-position:center;
+
+
+}
+
+.wrting{
+    text-align: center;
+    flex-basis: 60%;
+    height: 40rem;
+    justify-items: center;
+}
+.center-1{
+    margin: 12px ;
+    padding: 10px;
+    font-size: 2.8rem;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+.center-2{
+    margin: 12px ;
+    padding: 10px;
+    font-size: 1.7rem;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+.center-4{
+    margin: 12px ;
+    padding: 10px;
+    /* font-size: 1.7rem; */
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 1.2rem;
+}
+.center-3{
+    margin: 12px ;
+    padding: 10px;
+}
+/* <!-- Form For Contacting Us  --> */
+
+.form_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.outer{
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    /* justify-content: ; */
+    align-items: center;
+    box-shadow: 0 0 8px black;
+    border-radius: 12px ;
+}
+.contact{
+    width: 400px;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    flex-basis: 40%;
+    border-radius: 12px 0px 0px 12px
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+  margin: auto;
+    gap: 10px;
+}
+input textarea{
+  
+    margin: auto;
+}
+.imput_section{
+    font-family: 'Hanken Grotesk', sans-serif;
+    padding: 0.5rem;
+    border-style: none;
+    margin-left: 12px;
+    font-size: 1.0rem;
+    margin-bottom: 2px;
+   outline: none;
+}
+.constact_head{
+    text-align: center;
+    font-size: 2.0rem ;
+}
+.btn{
+  padding: 12px;   
+  margin: 20px;
+  outline: none;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  color:rgb(0, 40, 201);
+  font-size: 1.3rem;
+  cursor: pointer;
+  border-radius: 12px;
+  color: rgb(255, 255, 255);
+  background-color: rgba(43, 141, 161, 0.861);
+  text-align: center;
+}
+.btn:hover{
+    background-color: rgba(0, 209, 160, 0.459);
+    transition: .5s ease;
+}
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding: 10px 0px;  
+    background-color: rgba(164, 164, 164, 0.41);
+}
+
+
+/* media  aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
+
+
+
+@media (max-width : 900px){
+
+    .contaner2{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        /* height: 700px; */
+        height: 100vh;
+    }
+    .copyright{
+        font-size: 1rem;
+    }
+    .box img{
+        /* width: 400px; */
+        /* height: 400px; */
+        flex-basis: 30%;
+        /* background-position: top; */
+        /* background-size: cover; */
+    }
+    .mypic{
+        height: 400px;
+        background-position: center;
+        background-size: cover;
+        width: 300px;
+    }
+    .mypic:hover{
+        transition: 0.5s ease-in-out ;
+        box-shadow: 0 0 10px black;
+        border-radius: 12px;
+        cursor: pointer;
+        background-position:center;
+    
+    
+    }
+    
+    .wrting{
+        text-align: center;
+        flex-basis: 60%;
+        height: 40rem;
+        justify-items: center;
+    }
+    .center-1{
+        margin: 12px ;
+        padding: 10px;
+        font-size: 1.9rem;
+        font-family: 'Hanken Grotesk', sans-serif;
+    }
+    .center-2{
+        margin: 12px ;
+        padding: 10px;
+        font-size: 1.3rem;
+        font-family: 'Hanken Grotesk', sans-serif;
+    }
+    .center-4{
+        margin: 12px ;
+        padding: 10px;
+        /* font-size: 1.7rem; */
+        font-family: 'Hanken Grotesk', sans-serif;
+        font-size: 1.2rem;
+    }
+    .center-3{
+        margin: 12px ;
+        padding: 10px;
+    }
+
+}
+
+/* media  aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
+
+
+@media (max-width : 820px){
+
+.pera {
+    margin-left: 50px;
+    font-size: 2.2rem;
+}
+.qutoes{
+    margin-left: 50px;
+}
+    .contaner2{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 100%;
+        /* height: 100vh; */
+        flex-direction: column;
+    }
+    .box img{
+        /* width: 400px; */
+        /* height: 400px; */
+        flex-basis: 30%;
+        /* background-position: top; */
+        /* background-size: cover; */
+    }
+    .mypic{
+        height: 400px;
+        background-position: center;
+        background-size: cover;
+        width: 300px;
+    }
+    .mypic:hover{
+        transition: 0.5s ease-in-out ;
+        box-shadow: 0 0 10px black;
+        border-radius: 12px;
+        cursor: pointer;
+        background-position:center;
+    
+    
+    }
+    .wrting{
+        text-align: center;
+        flex-basis: 60%;
+        /* height: 80rem; */
+        justify-items: center;
+        margin: 10px;
+    }
+    .center-1{
+        margin: 12px ;
+        padding: 10px;
+        font-size: 1.9rem;
+        font-family: 'Hanken Grotesk', sans-serif;
+    }
+    .center-2{
+        margin: 12px ;
+        padding: 10px;
+        font-size: 1.3rem;
+        font-family: 'Hanken Grotesk', sans-serif;
+    }
+    .center-4{
+        margin: 12px ;
+        padding: 10px;
+        /* font-size: 1.7rem; */
+        font-family: 'Hanken Grotesk', sans-serif;
+        font-size: 1.2rem;
+        
+    }
+    .center-3{
+        margin: 12px ;
+        padding: 10px;
+    }
+
+.outer{
+    flex-direction: column;
+    /* height: 100%; */
+    
+
+}
+.imput_section{
+    width: 100%;
+    background-color: rgba(138, 138, 138, 0.377);
+    border: 12px;
+}
+
+/* navvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv */
+.container nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3.6rem;
+    box-shadow: 0 0 8px rgb(39, 39, 39);
+    z-index: 1;
+    width: 100%;
+    position: fixed;
+    background-color: rgb(215, 215, 215);
+}
+
+.logo{
+    text-align: center;
+    flex-basis: 30%;
+    /* font-weight: 300; */
+    cursor: pointer;
+    font-size: 1.2rem;
+    
+}
+.logo:hover{
+    font-size: 1.6rem;
+    transition: 0.5s ease-in-out;
+    color: rgb(16, 9, 9);
+}
+
+.lists{
+    text-align: center;
+    flex-basis: 40%;
+}
+li{
+    padding-right: 12px;
+
+}
+ul {
+    font-size: 0.9rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+    /* font-family: 'Playfair Display', serif; */
+    color: var(--primary-text-color);
+ }
+
+ .list:hover{
+    text-shadow: 0 0 2px rgb(85, 85, 85);
+ }
+} 
+
+@media (max-width : 500px){
+.contact{
+    /* width: 1em; */
+    background-image: none;
+}
+
+}
